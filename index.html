@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neepun Classes History</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row">
+        <h2 class="mb-3  month-name">
+          <i class="fa-solid fa-house-chimney-user"></i> Home
+        </h2>
+        
+      
+        <div class="col-md-9 order-2 order-md-1">
+          <p class="lead"> You are at Home Page, Kindly Select the Months to see the classes History</p>
+        </div>
+
+        <div class="col-md-3 order-1 order-md-2 mb-3 ">
+          <h5 class="mb-1 mb-md-2">
+            Choose the month Here: <i class="fa-solid fa-circle-check"></i>
+          </h5>
+          <div class="list-group list-group-horizontal">
+            <a
+              href="index.html"
+              class="list-group-item list-group-action list-group-item-primary"
+              >Home</a
+            >
+            <a
+              href="june.html"
+              class="list-group-item list-group-action list-group-item-success"
+              >June</a
+            >
+            <a
+              href="july.html"
+              class="list-group-item list-group-action list-group-item-warning"
+              >July</a
+            >
+          </div>
+        </div>
+
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- HTML of Last time modified  -->
+    <button class="btn btn-outline-primary" onclick="geeks()">
+      Last Time Modified <i class="fa-solid fa-file-circle-check"></i>
+  </button>
+
+  <p id="sudo"></p>
+        </div>
+      </div>
+    </div>
+
+   
+
+
+
+  <!-- script of last time modified  -->
+    <script>
+        /* Function to use lastModified property */
+        function geeks() {
+            var x = document.lastModified;
+            document.getElementById("sudo").innerHTML = x;
+        }
+    </script>
+
+<!-- script of font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/e87d9214d1.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+  </body>
+</html>
